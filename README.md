@@ -1,1 +1,1 @@
-W tym katalogu mają znaleźć się pliki dotyczące frontend'u
+https://luqapo.github.io/ToDo/
