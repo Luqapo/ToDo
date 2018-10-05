@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Container{
+  width: 280px;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.ListItem{
+  display: flex;
+  width: 280px;
+  height: 40px;
+  border-bottom: 1px solid grey;
+  .Task{
+    display: flex;
+    width: 250px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-right: 1px solid grey;
+    .Todo{
+      color: #2e3641;
+    }
+    .Done{
+      color: #9eb2c0;
+    }
+  }
+  .Checkbox{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px double grey;
+    border-left: 1px double grey;
+  }
+}
+
+.Header{
+  background: grey;
+  color: white;
+}
+
+
